@@ -1,0 +1,116 @@
+.second-billing-container {
+  height: 100vh;
+}
+
+.billing-second-page {
+  margin-top: 10%;
+  width: 40%;
+  height: 300px;
+  padding: 0px 0px 4px 0px;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px #d9d9d9;
+}
+
+.billing-second-page,
+.billing-btn,
+.personalInfo-btn {
+  position: absolute;
+}
+
+.billing-second-page,
+.total {
+  border-radius: 10px;
+}
+
+.items {
+  font-size: 14px;
+}
+
+.catelogue-header {
+  background: #4169e1;
+  padding: 2% 0px 2% 8%;
+  color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.catelogue {
+  padding: 0px 0px 0px 4%;
+}
+
+.section1,
+.section2 {
+  padding: 2% 0px 2% 4%;
+}
+
+.section1 {
+  margin-top: 5%;
+}
+
+hr {
+  width: 95%;
+}
+
+.items1 {
+  margin: 0px 56% 0px 0px;
+}
+
+.items1,
+.items3,
+.items5,
+.items7 {
+  float: left;
+}
+
+.items3 {
+  margin: 0px 30% 0px 0px;
+}
+
+.items5 {
+  margin: 0px 63% 0px 0px;
+}
+
+.items7 {
+  margin: 0px 69% 0px 0px;
+}
+
+.total {
+  border: 1px solid black;
+  width: 87%;
+  height: 40px;
+  padding: 1% 0px 0px 2%;
+  margin: 6% 0px 0px 3%;
+}
+
+.billing-btn {
+  width: 80%;
+  height: 100px;
+}
+
+.billing-btn {
+  display: flex;
+  margin-top: 38%;
+}
+
+.pay-btn,
+.cancle-btn {
+  width: 13%;
+  height: 40px;
+}
+
+.cancle-btn {
+  margin-left: 5%;
+  border: none;
+  background: transparent;
+  outline-style: none;
+  color: #191970;
+  font-weight: bold;
+}
+
+.pay-btn {
+  outline-style: none;
+  background: orange linear-gradient(orange, #ff8c00);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
