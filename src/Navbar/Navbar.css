@@ -1,0 +1,47 @@
+.purchase-form-navbar {
+  position: absolute;
+  margin: 60px 0px 0px 0px;
+  font-size: 14px;
+}
+
+.purchase-form-navbar > nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.purchase-form-navbar > nav > ul > li {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+/* .purchase-form-navbar > nav > ul > li:hover:active {
+  border-bottom: 7px solid #ff7f50;
+} */
+
+.purchase-form-navbar > nav > ul .firstLink,
+.purchase-form-navbar > nav > ul .secondlink,
+.purchase-form-navbar > nav > ul .thirdlink {
+  text-decoration: none;
+  opacity: 0.5;
+  color: #707070;
+}
+
+.purchase-form-navbar > nav > ul .firstLink {
+  margin-right: 100px;
+}
+
+.purchase-form-navbar > nav > ul .secondlink {
+  margin-right: 60px;
+}
+
+.purchase-form-navbar > nav > ul .thirdlink {
+  margin: 0px 0px 0px 71px;
+}
+
+.purchase-form-navbar > nav > ul .firstLink:hover,
+.purchase-form-navbar > nav > ul .secondlink:hover,
+.purchase-form-navbar > nav > ul .thirdlink:hover {
+  opacity: 1;
+  color: #ff7f50;
+  border-bottom: 7px solid #ff7f50;
+}

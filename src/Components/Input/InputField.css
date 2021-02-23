@@ -1,0 +1,47 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+}
+
+.input-field .name,
+.input-field .email,
+.input-field .address1,
+.input-field .address2,
+.input-field .localGovernment,
+.input-field .nameOnCard,
+.input-field .cardDetails,
+.input-field .expiryDate,
+.input-field .cvv,
+.select-cardType {
+  height: 40px;
+  border-radius: 5px;
+  outline-style: none;
+  border: 1px solid #707070;
+  padding-left: 2%;
+  font-size: 14px;
+}
+
+.input-field .expiryDate,
+.input-field .cvv,
+.select-cardType {
+  text-align: center;
+}
+
+.label {
+  font-size: small;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 10px;
+  margin: 6px 0px 6px 0px;
+}
+
+.sup {
+  float: right;
+  color: red;
+  margin-left: 19%;
+  margin-top: -1%;
+}

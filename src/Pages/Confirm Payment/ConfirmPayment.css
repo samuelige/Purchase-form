@@ -1,0 +1,46 @@
+.confirmPayment {
+  position: absolute;
+  margin-top: 10%;
+  width: 40%;
+  height: 300px;
+  padding: 4% 4% 1% 6%;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px #d9d9d9;
+  border-radius: 8px;
+}
+
+.confirmPayment > h2 {
+  font-size: 29px;
+  color: #191970;
+  font-weight: bold;
+}
+
+.confirmPayment > small {
+  font-size: 12px;
+}
+
+.rounded-icon {
+  border-radius: 100px;
+  width: 10%;
+  height: 35px;
+  font-weight: bold;
+  background: #ffffff;
+  box-shadow: 1px 1px 1px 1px #d9d9d9;
+  text-align: center;
+  padding: 2% 0px 0px 0px;
+  margin: 0px 0px 2% 29%;
+}
+
+.checked {
+  color: #00ff7f;
+  font-size: 25px;
+  /* margin-top: 4%; */
+}
+
+.linktag {
+  margin-top: 18px;
+}
+
+.linktag > .return {
+  color: #ff8c00;
+}

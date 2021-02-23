@@ -1,0 +1,64 @@
+.personalinfo-form-container {
+  height: 530px;
+}
+
+.LG-State,
+.state,
+.personalInfo-btn {
+  display: flex;
+}
+
+.state {
+  flex-direction: column;
+}
+
+.LG-State {
+  width: inherit;
+  height: 100px;
+}
+
+.state {
+  width: 320px;
+  outline-style: none;
+  margin-top: 40px;
+  padding: 0px 0px 0px 5px;
+}
+
+.select-state {
+  height: 65%;
+}
+
+.select-state,
+.next-btn,
+.cancle-payment-btn {
+  border-radius: 5px;
+}
+
+.personalInfo-btn {
+  width: 80%;
+  height: 100px;
+  margin-top: -6%;
+}
+
+.next-btn,
+.cancle-payment-btn {
+  width: 59%;
+  height: 40px;
+}
+
+.cancle-payment-btn {
+  margin-left: 5%;
+  border: none;
+  background: transparent;
+  outline-style: none;
+  color: #191970;
+  font-weight: bold;
+}
+
+.next-btn {
+  outline-style: none;
+  background: orange linear-gradient(orange, #ff8c00);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
