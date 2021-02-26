@@ -3,4 +3,11 @@
   font-size: 25px;
   color: #191970;
   font-weight: bold;
+  height: 100px;
+  margin-bottom: 80px;
+}
+
+.header {
+  padding-top: -10%;
+  padding-bottom: 1%;
 }

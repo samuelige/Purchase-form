@@ -1,5 +1,11 @@
 .billing-info {
   position: absolute;
   margin-top: 5%;
-  /* height: 100vh; */
+}
+
+@media only screen and (max-width: 375px) {
+  .billing-info {
+    margin-top: 43%;
+    height: 130vh;
+  }
 }

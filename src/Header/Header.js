@@ -3,7 +3,11 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <header className="purchase-form-title"> Complete your Purchase</header>
+        
+        <header className="header"> 
+            <h2 className="purchase-form-title">Complete your Purchase</h2>
+        </header> 
+        
     )
 }
 

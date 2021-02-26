@@ -1,9 +1,9 @@
 .confirmPayment {
   position: absolute;
-  margin-top: 10%;
+  margin-top: 9%;
   width: 40%;
-  height: 300px;
-  padding: 4% 4% 1% 6%;
+  height: 50vh;
+  padding: 4% 4% 1% 9%;
   background: #ffffff;
   box-shadow: 5px 5px 10px #d9d9d9;
   border-radius: 8px;
@@ -20,21 +20,20 @@
 }
 
 .rounded-icon {
-  border-radius: 100px;
-  width: 10%;
-  height: 35px;
+  border-radius: 100%;
+  width: 39px;
+  height: 41px;
   font-weight: bold;
   background: #ffffff;
   box-shadow: 1px 1px 1px 1px #d9d9d9;
   text-align: center;
   padding: 2% 0px 0px 0px;
-  margin: 0px 0px 2% 29%;
+  margin: 0px 0px 0% 29%;
 }
 
 .checked {
   color: #00ff7f;
   font-size: 25px;
-  /* margin-top: 4%; */
 }
 
 .linktag {
@@ -43,4 +42,23 @@
 
 .linktag > .return {
   color: #ff8c00;
+}
+
+@media only screen and (max-width: 375px) {
+  .confirmPayment {
+    margin-top: 45%;
+    width: 80%;
+    height: 350px;
+    padding: 25% 0px 0px 6%;
+  }
+  .confirmPayment > h2 {
+    font-size: 23px;
+  }
+  .confirmPayment > small {
+    font-size: 10px;
+  }
+  .rounded-icon {
+    padding: 3% 0px 0px 4px;
+    margin: 0px 0px 0% 36%;
+  }
 }
