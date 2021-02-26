@@ -1,5 +1,6 @@
 .personalinfo-form-container {
-  height: 530px;
+  height: 130vh;
+  margin-top: 25px;
 }
 
 .LG-State,
@@ -14,18 +15,28 @@
 
 .LG-State {
   width: inherit;
-  height: 100px;
+  height: 20vh;
+  margin-top: 25px;
+}
+
+.LG {
+  width: 100%;
 }
 
 .state {
-  width: 320px;
+  width: 70%;
+  height: 85px;
   outline-style: none;
-  margin-top: 40px;
-  padding: 0px 0px 0px 5px;
+  margin-top: 6px;
+}
+
+.label-state {
+  padding-bottom: 28px;
 }
 
 .select-state {
-  height: 65%;
+  height: 100%;
+  margin-top: 7%;
 }
 
 .select-state,
@@ -37,7 +48,7 @@
 .personalInfo-btn {
   width: 80%;
   height: 100px;
-  margin-top: -6%;
+  margin-top: 6%;
 }
 
 .next-btn,
@@ -61,4 +72,26 @@
   color: #ffffff;
   border: none;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 375px) {
+  .personalinfo-form-container {
+    margin-top: 150px;
+    height: 130vh;
+  }
+
+  .LG-State {
+    display: flex;
+    flex-direction: column;
+    height: 38vh;
+  }
+
+  .state {
+    width: 100%;
+    margin: 35px 0px 0% 0px;
+  }
+  .personalInfo-btn {
+    width: 100%;
+    margin-top: 19%;
+  }
 }

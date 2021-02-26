@@ -1,20 +1,33 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import './Navbar.css'
 
 const Navbar = () => {
+
+   
+    let history = useHistory();
+
+    const handleFirstClick = () => {
+        history.push("/");
+    }
+    const handleSecondClick = () => {
+        history.push("/billingInfo");
+    }
+    const handleThirdClick = () => {
+        history.push("/comfirmPayment");
+    }
     return (
         <div className="purchase-form-navbar">
             <nav>
                 <ul>
-                    <li className='active'> 
-                        <Link className='firstLink ' to="/" >Personal Info</Link>
+                    <li className=''> 
+                        <Link className='firstLink '  onClick={handleFirstClick}>Personal Info</Link>
                     </li>
-                    <li className='active'>
-                        <Link className='secondlink ' to="/billingInfo" >Billing Info</Link>
+                    <li className=''>
+                        <Link className='secondlink ' onClick={handleSecondClick} >Billing Info</Link>
                     </li>
-                    <li className='active'>
-                        <Link className='thirdlink' to="/comfirmPayment">Comfirm Payment</Link>
+                    <li className=''>
+                        <Link className='thirdlink' onClick={handleThirdClick}>Comfirm Payment</Link>
                     </li>
                 </ul>
             </nav>

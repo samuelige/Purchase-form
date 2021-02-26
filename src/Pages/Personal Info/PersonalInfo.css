@@ -1,5 +1,13 @@
 .personalInfo {
   position: absolute;
-  margin-top: 7%;
+  margin-top: 6%;
   height: 120vh;
+  width: 40%;
+}
+
+@media only screen and (max-width: 375px) {
+  .personalInfo {
+    width: 80vw;
+    height: 163vh;
+  }
 }

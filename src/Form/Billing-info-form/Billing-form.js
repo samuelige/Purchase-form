@@ -22,8 +22,8 @@ const BillingForm = () => {
         history.push("/billingSecondPage");
     }
     return (
-        <div className="form-properity">
-            <form action="">
+        <div className="billing-form-properity">
+            <form action="" >
                 <div className="name name-on-card">
                     <InputField name="nameOnCard" 
                     type='text'
